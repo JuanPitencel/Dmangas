@@ -1,0 +1,31 @@
+{
+    "slider":[
+        {
+            "id":1,
+            "foto_movil":"http://localhost:3000/img/slider/home/slider01_movil.png",
+            "foto":"http://localhost:3000/img/slider/home/slider01-desktop.png",
+            "texto":"Vivamos juntos esta magica aventura!!"
+        },
+        {
+            "id":2,
+            "foto_movil":"http://localhost:3000/img/slider/home/slider02_movil.png",
+            "foto":"http://localhost:3000/img/slider/home/slider02-desktop.png",
+            "texto":"Vivamos juntos esta magica aventura!!"
+        },
+        {
+            "id":3,
+            "foto_movil":"http://localhost:3000/img/slider/home/slider03_movil.png",
+            "foto":"http://localhost:3000/img/slider/home/slider03-desktop.png",
+            "texto":"Vivamos juntos esta magica aventura!!"
+        },
+        {
+            "id":4,
+            "foto_movil":"http://localhost:3000/img/slider/home/slider04_movil.png",
+            "foto":"http://localhost:3000/img/slider/home/slider04-desktop.png",
+            "texto":"Vivamos juntos esta magica aventura!!"
+        }
+    ]
+}
+       
+
+

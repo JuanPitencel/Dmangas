@@ -1,0 +1,92 @@
+.container{max-width: 910px;width: 100%; margin: 0 auto;}
+.ui_header {
+    background-color: transparent;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+  }
+.menu{
+    max-width: 1300px;
+    width: 100%;  
+    padding: 20px 10px 25px;  
+    margin: 0 auto;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .logo{display: flex;
+    max-width: max-content;
+    float: left;}
+.menu .logo a{font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    align-items: center;
+    display: flex;
+    margin-top: -4px;
+    width: 200px;
+    } 
+.menu-profile-modal {z-index: 13000; position: relative;}
+.bob-logo {background-color: #FF0055; width: 32px; border-radius: 5px; margin-right: 5px; margin-bottom: 3px; }
+.menu .top-nav{float: right;margin-top: 8px;margin-right: 8px; }
+.menu .top-nav ul{display: flex;}
+.menu .white-cuadrante ul { display: flex; flex-direction: column; }
+.menu .top-nav ul li{margin-right: 40px;}
+.menu .top-nav ul li:nth-child(6) .button{ display: flex; flex-direction: row;}
+.menu .top-nav ul li a.ui_active {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.menu .top-nav ul li a {
+    color: var(--color-D9D9D9); 
+    font-size: 14px;
+    line-height: 12px;
+    padding-bottom: 2px;
+    font-family: var(--font-Poppins-Bold);
+    
+    border-bottom: 3px solid transparent;
+}
+.menu .top-nav ul li a:hover {border-color: var(--color-FF0055);}
+.menu .button {position: relative;display: block;float: left;margin-top: -5px;}
+.menu .button button{background-color: #5b51511a;width: 36px;height: 36px;border-radius: 50%;margin-right: 10px;float: left;margin-top: -7px;}
+.menu .button button img{margin: 0 auto;width: 20px;height: 20px;}
+.menu .button button .blue{display: none;}
+.menu .button button .white{display: none;}
+
+
+.containerLink{
+    position: relative;
+}
+
+.titleMenu {
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 999;
+    transition: all .3s;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLink:hover .titleMenu {
+    width: 140px;
+}
+
+.containerLink:hover .navlink {
+    display: flex;
+}
+
+.navlink {
+    width: 100px;
+    height: 30px !important;
+    display: none;
+    background-color: #5028C6;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-left: 5px;
+}

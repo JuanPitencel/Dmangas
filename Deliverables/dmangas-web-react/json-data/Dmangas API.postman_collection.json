@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "8680f411-f5bb-4992-bb3b-705e45341a84",
+		"name": "Dmangas API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "568679",
+		"_collection_link": "https://crimson-star-544728.postman.co/workspace/3d3b2432-5b97-4601-a3a5-97df37e18804/collection/568679-8680f411-f5bb-4992-bb3b-705e45341a84?action=share&creator=568679&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "API Core",
+			"item": [
+				{
+					"name": "List Banners",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"user-agent": true,
+							"accept": true,
+							"accept-encoding": true,
+							"connection": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_ENDPOINT}}/api/core/banners?bannerType=SLIDER&withImages=true",
+							"host": [
+								"{{URL_ENDPOINT}}"
+							],
+							"path": [
+								"api",
+								"core",
+								"banners"
+							],
+							"query": [
+								{
+									"key": "bannerType",
+									"value": "SLIDER"
+								},
+								{
+									"key": "withImages",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Las APIs parte del Core, tales como Libros, Banners, etc"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL_ENDPOINT",
+			"value": "http://dmangas.local.web:8000",
+			"type": "string"
+		}
+	]
+}

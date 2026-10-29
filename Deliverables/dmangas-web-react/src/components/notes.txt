@@ -1,0 +1,110 @@
+index.html:
+    -menu,
+    -modal,
+    -latest-updates,
+    -carousel-pick of the day,
+    -carousel->recommended
+    -tab
+    -footer
+about_us.html
+   - menu
+   - html-simple->banner
+   - html-simple->text
+   - footer
+books.html
+   - menu
+   - html-simple->banner
+   - filter
+   - tab
+   - footer
+book_detail.html
+    -menu
+    -html-banners
+    -grayAccordion->detail
+    -grayAccordion->chapters
+    -accordionButton
+    -htmlBox
+    -groupBubble
+    -accordionButton
+    -carousel->recommended
+    - footer
+book_detail_view.html
+    -menu
+    -html-simple
+    -html-simple
+    -carousel->recommended
+    -html-simple
+    -html-simple
+    - slider
+    - comment: accordionButton
+    - footer
+community_book_detail.html
+    -menu
+    -html-simple-banner
+    -html-simple
+    -html-simple->icons
+    - html->statistics
+    -html-simple->information
+    -tabs
+    -html-simple->members
+    -modal
+    - footer
+community.html
+      -menu
+      banner
+     -tab
+     - footer
+community_requests.html
+ -sidebar
+ -simple pink tab
+ -footer
+library_no_login.html
+  -menu
+  -banner
+  -tab
+  -footer
+settings.html
+  -sidebar
+  -html-simple
+  -footer
+profile.html
+  -sidebar
+  -html-banner
+  -html-simple
+  -htmlBox
+  -tab
+  -modal
+  -footer
+profile_login.html
+ -menu
+ -modal
+ - slider
+ - carousel ->pick of the day
+ - latest updates
+  - carousel ->recommended
+  - tab
+  - footer
+wallet.html
+ sidebar
+ html simple
+ simple pink tab
+ html-simple
+ footer
+----------------------------------
+http://localhost/dmangas-maqueta/quienes_somos.html
+http://localhost/dmangas-maqueta/libros.html
+http://localhost/dmangas-maqueta/libros_detalle.html
+http://localhost/dmangas-maqueta/libros_detalle_view.html
+http://localhost/dmangas-maqueta/comunidad_libro_detalle.html
+http://localhost/dmangas-maqueta/comunidad.html
+http://localhost/dmangas-maqueta/comunidad_solicitudes.html
+http://localhost/dmangas-maqueta/biblioteca_no_login.html
+http://localhost/dmangas-maqueta/configuracion.html
+http://localhost/dmangas-maqueta/billetera.html
+
+{/* http://localhost:3000/img/card/bg_card_latest_update_1.jpg*/ }
+
+
+
+
+

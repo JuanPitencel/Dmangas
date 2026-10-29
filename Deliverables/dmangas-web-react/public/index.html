@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <meta
+      name="google-signin-client_id"
+      content="7328144381-96dcbi5eh76mpn5grj66p7qtjcf72gps.apps.googleusercontent.com"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>D'Mangas</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/owl.carousel.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/scrollyeah.css" />
+    <!-- <link rel="stylesheet" href="css/slick.css">  -->
+
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/jquery.fancybox.css" />
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/responsive.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap-switch.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/base.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/desktop.css" />
+    <!-- <link rel="stylesheet" href="css/movil.css"> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
+
+    <div id="root"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/popper.min.js?v=20230215101800"></script>
+    <script src="%PUBLIC_URL%/js/owl.carousel.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.bundle.js"></script>
+    <script src="%PUBLIC_URL%/js/popper.min.js"></script>
+
+    <script src="%PUBLIC_URL%/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/scrollyeah.min.js"></script>
+    <script src="js/bootstrap-switch.min.js"></script>
+
+    <!--  <script src="js/carrusel.js"></script>
+    <script src="js/carrusel_slick.js"></script> -->
+    <script src="js/load.js"></script>
+    <script src="js/componente.js"></script>
+    
+
+    <script src="js/jquery-1.12.4.min.js?v=20230215101800"></script>
+    <script src="js/owl.carousel.js?v=20230215101800"></script>
+    <script src="js/bootstrap.js?v=20230215101800"></script>
+    <script src="js/bootstrap.bundle.js?v=20230215101800"></script>
+
+    <script src="js/bootstrap.bundle.min.js?v=20230215101800"></script>
+    <script src="js/slick.js?v=20230215101800"></script>
+    <script src="js/scrollyeah.min.js?v=20230215101800"></script>
+    <script src="js/bootstrap-switch.min.js?v=20230215101800"></script>
+    <script src="js/script.js?v=20230215101800"></script>
+    <script src="js/load.js?v=20230215101800"></script>
+    <script src="js/componente.js?v=20230215101800"></script>
+
+    
+    
+    <script>
+      if ("loading" in HTMLImageElement.prototype) {
+        console.log("El navegador soporta `lazy-loading`...");
+      } else {
+        console.log("`lazy-loading` no soportado...");
+      }
+
+      //  slider();
+      /* const myTimeout = setTimeout(slider, 5000);*/
+      //  console.log("EJECUTANDO SLIDER");
+
+     /* $(document).ready(function () {
+        $("#modal-biblioteca_no_login").modal("toggle");
+      });*/
+
+      $(document).ready(function() {
+            $('#libro-slider1').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            })
+            $('#libro-slider3').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+
+            $(".ibanner").hover(function() {
+                console.log("test");
+                $("#gris_rigth_01").css("display", "none");
+                $("#gris_rigth_01").show(500);
+            });
+
+            $("#movil-footer-flotante").css("display", "none");
+            $(".comunidad_detalle_libro.ocultar").css("display", "block");
+          });
+          
+     </script>
+    <script src="https://unpkg.com/pdfjs-dist@2.7.570/build/pdf.worker.min.js"></script>
+  </body>
+</html>

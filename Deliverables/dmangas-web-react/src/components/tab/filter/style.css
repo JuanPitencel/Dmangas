@@ -1,0 +1,138 @@
+.custom-dropdown-circle {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 5px;
+  
+}
+.custom-dropdown-check {
+  width: 8px;
+  height: 8px;
+  background-color: white; 
+  border-radius: 50%;
+  display: none;
+}
+.custom-dropdown-button{
+  background-color: white;
+  
+}
+#dropdownID{
+  background-color: white;
+  color: black;
+}
+#dropdownItem{
+  width: 100%;
+}
+
+
+
+.grid-filtro{height:24px;float: left;margin-right: 3px;}
+.grid-filtro img{height:24px;max-width: max-content;}
+.filtro-tab{font-family: var(--font-Poppins-Medium);  font-size: 12px;
+    display:block;
+    line-height: 16px;
+  }
+  
+  /*
+  .ui_order_list--dropdown button {
+    font-size: 12px;
+    font-family: var(--font-Poppins-Medium);
+    background-color: var(--color-FFFFFF) !important;
+    color: var(--color-000000) !important;
+    border: 1px solid var(--color-868F9E) !important;
+  }
+  [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+  }
+  .cbo_libro .libro_titulo {
+    padding-left: 0px;
+    color: #212429;
+  }
+  .dropdown-menu li button span {
+    display: block;
+    padding: 3px 3px 3px 25px;
+      padding-left: 25px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+  }
+  .ui_dropdown_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--color-DDE2E5);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 5px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    position: absolute;
+  }
+  .ui_order_list--dropdown > ul button {
+    border: none !important;
+  }
+  .dropdown-toggle::after {
+    width: 10px;
+    height: 6px;
+    border: none;
+    background-image: url('../../../../public/img/svg/icon_arrow_FF0055.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: 0.2em;}
+.li-filtro{display:none;padding-top: 20px;padding-bottom: 30px;padding-left: 20px;}
+.filtro-tab ul li{float: left;height: 32px;}
+.filtro-tab ul li:nth-child(1){width:162px;}
+.filtro-tab ul li:nth-child(1) span{margin-top: 5px;float: left;}
+.filtro-tab ul li:nth-child(2){width:236px;}
+.filtro-tab ul li:nth-child(3){width:111px;}
+.filtro-tab ul li:nth-child(4){width: 91px;}
+
+/*
+.custom-dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 5px;
+}
+
+.custom-dropdown-circle {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-dropdown-check {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: none;
+}
+
+.custom-dropdown-item.active .custom-dropdown-check {
+  display: block;
+}
+*/

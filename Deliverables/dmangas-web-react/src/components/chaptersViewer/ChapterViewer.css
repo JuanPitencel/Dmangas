@@ -1,0 +1,42 @@
+.chapter-viewer-container {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible; 
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow: visible; 
+    display: flex;
+    flex-direction: column;
+}
+
+.pdf-viewer {
+    width: 100%;
+    overflow: visible; 
+}
+
+.pdf-viewer canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-gallery .image-gallery-image img {
+    width: 100%;
+    height: auto;
+}
+
+.html-content {
+    width: 100%;
+    overflow: visible; 
+    word-wrap: break-word;
+}
+
+.image-gallery-icon {
+    display: none !important;
+}
+
+.image-gallery-svg {
+    display: none !important;
+}

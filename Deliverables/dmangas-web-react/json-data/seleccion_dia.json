@@ -1,0 +1,21 @@
+{
+    "seleccion_dia":[
+        {
+            "id":1,
+            "foto":"ruta",
+            "titulo":"La propuesta del emperador",
+            "puntuacion_cifra":"8.9",
+            "vistas_cifra":"20.5"
+        },
+        {
+            "id":2,
+            "foto":"ruta",
+            "titulo":"La propuesta del emperador",
+            "puntuacion_cifra":"8.9",
+            "vistas_cifra":"20.5"
+        }
+    ]
+}
+       
+
+

@@ -1,0 +1,96 @@
+.col-footer .info{
+ min-height: 212px;
+    display: block;
+    float: left;width: 22%;margin-right: 20px;}
+.col-footer .info:nth-child(1){width: 30%;}
+.col-footer .info:nth-child(4){
+    margin-right: 0px;
+    float: left;
+    width: 18%;
+}
+.col-footer .info img{width:max-content;}
+.col-footer .info .lista li{
+    width: 100%;
+    float: left;
+    color: #fff;
+    margin-bottom: 20px;cursor: pointer;}
+.col-footer .info .lista li:nth-child(1){
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--color-FFFFFF);
+    font-family: var(--font-Poppins-Bold);
+}
+.col-footer .info .lista li.mensaje {
+    font-size: 24px;
+line-height: 26px;
+font-family: var(--font-Poppins-Bold);
+}
+.col-footer .info .lista li.sociales img{
+    margin-right: 11px;
+    cursor: pointer;
+}
+.col-footer .info .lista img{
+   float: left;
+}
+.col-footer .info .lista span.texto-check{
+   float: left;
+   font-size: 14px;
+line-height: 17px;
+font-family: var(--font-Poppins-Medium);
+color: var(--color-FFFFFF);
+}
+.col-footer .info.link .lista img{
+    max-width: 12px;
+    margin-right: 8px;
+    margin-top: 3px;
+    
+}
+
+.container.footer {   
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    padding: 76px 10px 69px!important;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color-A1AABC);  
+  }
+.container.footer.complemento {   
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    border: none;
+    padding-top: 0px !important;
+  }
+.container.footer.complemento img{max-width: 160px;}
+
+.container.footer.footer-one{padding-bottom: 8px !important;}
+
+.usuario-logueado {
+    background-color: blue;
+    color: white;
+  }
+  
+  .usuario-no-logueado {
+    background-color: white;
+    color: blue;
+  }
+
+/* MOBILE FOOTER */
+@media only screen and  (min-width: 751px) and (max-width: 900px) {
+  /* THREE VERTICAL COLUMNS */
+  .footer-one #informacion{float: right;max-width: max-content;width: 100%;}
+}
+@media only screen and (max-width: 700px) {
+ /* 2 COLUMNS */
+    /* footer  */
+    .container.footer{padding:50px 10px 69px !important;padding-bottom: 10px !important;}
+    .html-footer {display: inline-block;width: 100%;}
+    .html-footer .col-footer .info:nth-child(1) {width: 100%!important;min-height: auto;}
+    .html-footer .col-footer .info {width: 50%; margin-right: 0px;}
+    .html-footer .col-footer .info .derechos{display:none;}
+
+    .footer-one #informacion{float: right;max-width: max-content;width: 100%;}
+}

@@ -1,0 +1,23 @@
+{
+    "ultimas_actualizaciones":[
+        {
+            "id":1,
+            "foto":"ruta",
+            "titulo":"La propuesta del emperador",
+            "subtitulo":"Capitulo 02",
+            "descripcion":"Grupo: Big Another Boyang",
+            "time":"Hace 3 horas"
+        },
+        {
+            "id":2,
+            "foto":"ruta",
+            "titulo":"La propuesta del emperador",
+            "subtitulo":"Capitulo 02",
+            "descripcion":"Grupo: Big Another Boyang",
+            "time":"Hace 3 horas"
+        }
+    ]
+}
+       
+
+

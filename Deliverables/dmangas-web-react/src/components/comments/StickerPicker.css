@@ -1,0 +1,60 @@
+.sticker-picker-buttons {
+  display: flex;
+}
+
+.sticker-picker-buttons button {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px; /* Added to adjust the horizontal padding */
+  height: 26px;
+  border-radius: 25px !important;
+  border: 1px solid #5028C6 !important;
+  background-color: #DDE2E5 !important;
+  color: #5028C6 !important;
+  cursor: pointer;
+  white-space: nowrap; /* Prevents line wrapping */
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  font-family: var(--font-Poppins-Medium);
+  font-size: 12px;
+}
+
+.sticker-picker-buttons button.active {
+  background-color: #5028C6 !important;
+  color: #DDE2E5 !important;
+  border: 1px solid #5028C6 !important;
+
+}
+
+/* Styles for the sticker container */
+
+
+.sticker-picker {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  background-color:  #DDE2E5;
+  border-radius: 5px;
+  margin: 50px auto 0;
+  max-width: max-content;
+}
+
+/* Styles for the stickers */
+.sticker {
+  width: 61px;
+  height: 62px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.sticker:hover {
+  transform: scale(1.1);
+}
+.sticker-picker img {
+  display: block;
+  margin: auto;
+}

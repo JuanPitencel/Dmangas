@@ -1,0 +1,31 @@
+.Custom-Image-Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45vh;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+
+.Custom-Image {
+  width: 120px !important;
+  height: 120px !important;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  left: 0;
+  animation: moveRightLeft 6s linear infinite;
+}
+
+@keyframes moveRightLeft {
+  0% {
+    left: 100%; 
+    transform: translateY(-50%);
+  }
+  100% {
+    left: 0%; 
+    transform: translateY(-50%);
+  }
+}

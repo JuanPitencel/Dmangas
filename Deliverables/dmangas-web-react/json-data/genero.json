@@ -1,0 +1,19 @@
+{
+    "genero":[
+        {
+            "id":1,
+            "foto":"ruta",
+            "categoria":"novela",
+            "titulo":"Amamame con suavidad"
+        },
+        {
+            "id":2,
+            "foto":"ruta",
+            "categoria":"novela",
+            "titulo":"Amamame con suavidad"
+        }
+    ]
+}
+       
+
+

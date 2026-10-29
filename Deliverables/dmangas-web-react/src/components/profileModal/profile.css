@@ -1,0 +1,8 @@
+.profile-modal {width: 380px; max-height: 449px; }
+.profile-modal .box.logo {display: none !important;}
+.profile-modal .accordion-agrupacion {display: none;}
+.profile-modal .username-text {font-family: var(--font-Poppins-Medium); font-size: 16px;}
+.profile-modal .avatar-container {padding-left: 0px; padding-bottom: 5px; margin-bottom: 15px;}
+.profile-modal .avatar-container img {width: 58px; height: 58px; margin-left: 0px !important;}
+.profile-modal .notificaciones-profile {border: solid 1px #fff; border-radius: 25px; width: 90%; font-size: 13px; height: 37px !important; padding: 2px; margin-top: 5px; margin-bottom: 5px;}
+.profile-modal .notificaciones-profile img {width: 24px; height: 24px;}

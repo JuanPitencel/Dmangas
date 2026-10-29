@@ -1,0 +1,81 @@
+.accordion {
+    margin-bottom: 45px;
+    background-color: transparent;
+}
+.accordion-body .form-check {
+  margin-bottom: 18px;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: var(--bs-accordion-border-radius);
+    border-top-right-radius: var(--bs-accordion-border-radius);
+  }
+  .accordion > div {
+    margin-bottom: 2px;
+  }
+  .accordion-item {
+    border: none;
+    background-color: transparent;color: var(--bs-accordion-color);
+  } 
+  .accordion-header {
+    margin-bottom: 0;
+  }
+  .accordion-button {
+    background-color: var(--color-FFFFFF);
+    height: 39px;
+    font-family: var(--font-Poppins-Medium);
+    color: var(--color-000000);
+    font-size: 16px;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: var(--color-FFFFFF);
+    color: var(--color-000000);
+    box-shadow: none;
+  }
+ 
+  .accordion .accordion-button::after {
+    background-image: url('../../../public/img/svg/icon_arrow_5F36DA.svg');
+    width: 12px;
+    height: 10px;
+    background-size: contain;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url('../../../public/img/svg/icon_arrow_FF0055.svg');
+  }
+
+ /* ACCORDION TYPE  */
+ .acordeonType1 .accordion-button:not(.collapsed)::after{display:none;}
+ .acordeonType1 .accordion .accordion-button::after{display:none;}
+ .acordeonType1 .accordion-header{font-family: var(--font-Poppins-Bold);font-size: 14px;line-height: 18px;color: #000000;}
+ .acordeonType1 .accordion-body{padding: 0px;}
+ .acordeonType1 .contenido{padding: 10px;border-radius: 7px;font-family: var(--font-Poppins-Regular);font-size: 14px;line-height: 18px;color: #000000;}
+ /* TYPE 2 */
+ .acordeonType2 .accordion-button:not(.collapsed)::after{display:block;}
+ .acordeonType2 .accordion .accordion-button::after{display:block;}
+ .acordeonType2 .accordion-header{font-family: var(--font-Poppins-Bold);font-size: 14px;line-height: 18px;color: #000000;}
+ .acordeonType2 .accordion-body{padding: 0px;}
+ .acordeonType2 .contenido{padding: 5px;border-radius: 7px;font-family: var(--font-Poppins-Regular);font-size: 14px;line-height: 18px;color: #000000;}
+ .acordeonType2 .accordion-button {background: #F5F7FA;border-radius: 7px;}
+
+.cardInfoChapters .option {margin-left: 6%;
+  margin-right: 0px;
+  margin-top: 20px;background: #FFFFFF;border: 1px solid #ACB5BD;box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);border-radius: 8px;max-width: 145px;height: 54px;display: inline-block;width: 100%;}
+.cardInfoChapters .option span {width: 100%;display: inline-block;padding: 5px;padding-top: 3px;}
+.cardInfoChapters .option span.item1 {font-family: var(--font-Poppins-Regular);font-style: normal;font-weight: 500;font-size: 12px;color: #424242; text-align: left;}
+.cardInfoChapters .option span.item2 {font-family: var(--font-Poppins-Medium);font-style: normal;font-weight: 500;font-size: 16px;color: #424242; text-align: left;}
+
+.acordeonType3.cardInfoDetailsItem .accordion-button{height: 77px;background-color: #FFFFFF;}
+.acordeonType3.cardInfoDetailsItem .itext {display: inline-block;top: -16px;position: relative;width: 77%;max-width: 77%;}
+.acordeonType3.cardInfoDetailsItem .ifoto {width: 100%;max-width: 99px;display: inline-block;margin-right: 16px;}
+.acordeonType3.cardInfoDetailsItem .item {width: 100%;padding-bottom: 5px;padding-top: 5px;}
+.acordeonType3.cardInfoDetailsItem .item .text {display: inline-block;}
+.acordeonType3.cardInfoDetailsItem .item .text .titulo {font-family: var(--font-Poppins-Medium);font-style: normal;font-weight: 500;font-size: 14px;color: #4F4F4F;}
+.acordeonType3.cardInfoDetailsItem .item .button {float: right;}
+.acordeonType3.cardInfoDetailsItem .item .button a {display: inline-block;}
+.acordeonType3.cardInfoDetailsItem .item .button img {display: inline-block;width: max-content;}
+.acordeonType3.cardInfoDetailsItem .subtitulo {font-family: var(--font-Poppins-Regular);font-style: normal;font-weight: 500;font-size: 10px;line-height: 128%;color: #828282;}
+.acordeonType3.cardInfoDetailsItem .subtitulo1 {font-family: var(--font-Poppins-Medium);font-style: normal;font-weight: 500;font-size: 12px;color: #4F4F4F;}
+.acordeonType3.cardInfoDetailsItem .subtitulo2 {font-family: var(--font-Poppins-Medium);font-style: normal;font-weight: 500;font-size: 12px;color: #828282;}
+.acordeonType3.cardInfoDetailsItem #collapseTwo .container.item {padding-left: 0px;}
+.acordeonType3.cardInfoDetailsItem .card-body {padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);color: var(--bs-card-color);}
+.acordeonType3.cardInfoDetailsItem .accordion-button:not(.collapsed)::after{margin-top: -60px;}
+.acordeonType3.cardInfoDetailsItem .accordion .accordion-button::after{margin-top: -60px;}

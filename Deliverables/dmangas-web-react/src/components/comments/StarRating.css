@@ -1,0 +1,28 @@
+.star-rating {
+  display: flex;
+  margin-left: 10px;
+}
+
+.star-container {
+  display: flex;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: fill 0.2s; 
+}
+
+.star.filled polygon {
+  fill: #7048E8; 
+}
+
+
+.star:hover polygon {
+  fill: transparent;
+}

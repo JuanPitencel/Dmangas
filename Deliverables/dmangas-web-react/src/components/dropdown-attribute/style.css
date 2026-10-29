@@ -1,0 +1,108 @@
+/* style.css */
+.custom-dropdown {
+    cursor: pointer;
+  }
+  
+  .dropdown-options-container {
+    max-height: 925px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .dropdown-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .styled-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border: 2px solid #DDE2E5;
+    border-radius: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* When selected */
+  .styled-checkbox:checked {
+    border-color: #5F36DA;
+    background-color: #5F36DA;
+  }
+  
+  .styled-checkbox:checked::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .dropdown-option label {
+    color: #495057;
+    font-family: var(--font-Poppins-Medium);
+    font-size: 14;
+
+
+  }
+  
+
+  .modal-content {max-width: 415px;}
+  .modal-header {
+    display: flex;
+    flex-direction: column; /* Stack the elements one below another */
+    align-items: center; /* Center the elements horizontally */
+    height: 70px; /* Header height */
+    padding: 1rem; /* Padding around the content */
+    border-bottom: 2px solid #DDE2E5; /* Divider line at the bottom */
+    box-shadow: none; /* Remove the shadow */
+  }
+
+  .modal-header h3 {
+    color: #5028C6; /* Title color */
+    margin: 0; /* Remove the default margin */
+    font-family: var(--font-Poppins-SemiBold);
+    font-size: 16px;
+  }
+
+  .modal-header h6 {
+    color: #333333; /* Subtitle color */
+    margin: 0; /* Remove the default margin */
+    font-family: var(--font-Poppins-Medium);
+    font-size: 12px;
+  }
+
+  .modal-footer {justify-content: center;}
+
+  .group-date.historia {align-items: center; display: flex; flex-direction: row;}
+
+  /* Ensures the text stays on one line and is capitalized */
+.selected-options-text {
+  white-space: nowrap; /* Prevent line breaks */
+  text-transform: capitalize; /* Capitalizes the first letter of each word */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Add '...' if the text is too long */
+
+}
+.dropdown-icon {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 30px; /* Adjust the distance from the right edge */
+}
+.dropdown-icon svg {
+  color: #5F36DA;
+}
+

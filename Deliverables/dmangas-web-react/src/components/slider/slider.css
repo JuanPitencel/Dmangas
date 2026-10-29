@@ -1,0 +1,68 @@
+.banner-anuncio {
+  float: left;
+  position: absolute; 
+  top: 230px;
+  left: -90px; 
+  font-family: var(--font-Poppins-Bold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: white !important;
+  max-width: 336px;
+}
+.container-slider{
+position: absolute;
+top: 42%;
+left: 17%;
+max-width: 910px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+}
+.ui_slider {
+position: relative;  
+}
+.img-banner{height: 317px;}
+.ui_slider .owl-carousel .owl-dots .owl-dot span{
+width: 12px;
+height: 12px;
+background-color: #fff;
+border-radius:50%;
+margin: 0 4px;
+transition: all .3s linear;
+}
+.ui_slider .owl-carousel .owl-dots .owl-dot.active span{
+background-color: var(--color-FF0055);
+
+}
+
+
+.ui_slider .owl-carousel .owl-dots {
+max-width:  var(--container-910) ; 
+width: 100%;
+margin: 0 auto;
+margin-top: 0px !important;
+position: relative;
+bottom: 29px;
+padding-left: 25px;
+display: flex;
+}
+.item .banner {
+  margin-right: -10px !important;
+}
+#anuncio01 .owl-carousel .owl-dots {
+max-width: max-content;
+position: relative;
+z-index: 1;
+/* margin-top: -51px; */
+left: -30%;
+}
+@media screen and (max-width: 900px) {
+.banner-anuncio {
+  left: 60px !important;
+  
+}
+}

@@ -1,0 +1,115 @@
+/* For desktop: */
+
+#slider1 .ui_slider_item {
+    background-image: url('../img/slider/home/slider01-desktop.png');
+}
+
+#slider2 .ui_slider_item {
+    background-image: url('../img/slider/home/slider02-desktop.png');
+}
+
+#slider3 .ui_slider_item {
+    background-image: url('../img/slider/home/slider03-desktop.png');
+}
+
+#slider4 .ui_slider_item {
+    background-image: url('../img/slider/home/slider04-desktop.png');
+}
+
+#footer_movil {
+    display: none;
+}
+
+.colum_25 {
+    width: 25%;
+    float: left;
+}
+
+
+/* genero  */
+
+.ui_section.ui_section--latest_updates .card {
+    border: none;
+    background: transparent;
+}
+
+
+/* recomendados */
+
+#recomendados .card {
+    background: transparent;
+    border: none;
+}
+
+#recomendados .ui_recommended__item {
+    color: #fff;
+}
+
+
+/* footer mobile */
+
+.ui_navigation_movil__ul.icon_option_mobile {
+    border-top: 0.5px solid #DADADA;
+}
+
+.icon_option_mobile img.img-footer-option-cel {
+    width: 10px!important;
+    height: 10px!important;
+}
+
+
+/* buscador  */
+
+#header_button {}
+
+#header_button {
+    display: block;
+    float: right;
+    top: -311px;
+    position: relative;
+    z-index: 9;
+    float: right;
+    right: 3%;
+    width: 91px;
+}
+
+#search_group_search {
+    display: none;
+    float: right;
+    top: -311px;
+    position: relative;
+    z-index: 9;
+    float: right;
+    right: 0;
+    width: 100%;
+}
+
+#header_button button {
+    float: left;
+}
+
+
+/* button */
+
+.oculta_movile {
+    display: block;
+}
+
+.oculta_desktop {
+    display: none;
+}
+
+
+/* .group_search {
+    position: absolute;
+    z-index: 9;
+    top: 16px;
+    max-width: 400px;
+    width: 100%;
+    display: none;
+}
+
+.group_search ul.group_search_list li {
+    padding-bottom: 8px;
+    text-align: left;
+} */
